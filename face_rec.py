@@ -6,6 +6,8 @@ import numpy as np
 from time import sleep
 
 
+print("Project Start")
+
 def get_encoded_faces():
     """
     looks through the faces folder and encodes all
@@ -89,5 +91,5 @@ def classify_face(im):
 
 
 # print(classify_face("me.jpeg"))
-print(classify_face("./Images/test5.jpg"))
+print(classify_face("./Images/test1.jpg"))
 
